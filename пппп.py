@@ -47,6 +47,7 @@ font_main = font.Font(None, 36)
 paddle_left_img = image.load("Пиво1.png").convert_alpha()
 paddle_right_img = image.load("Пиво1.png").convert_alpha()
 
+
 paddle_left_img = transform.scale(paddle_left_img, (50, 100))
 paddle_right_img = transform.scale(paddle_right_img, (50, 100))
 
